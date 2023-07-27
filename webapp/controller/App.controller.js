@@ -5,17 +5,17 @@ sap.ui.define([
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller,MessageToast) {
+    function (Controller, MessageToast) {
         "use strict";
 
         return Controller.extend("exampleui5.controller.App", {
             onInit: function () {
-
+                console.log("cambios");
             },
-            sendMessage:function(param){
-                if(param){
-                MessageToast.show("everything is OK");
-                }else{
+            sendMessage: function (param) {
+                if (param) {
+                    MessageToast.show("everything is OK");
+                } else {
                     MessageToast.show("bad");
                 }
             }
