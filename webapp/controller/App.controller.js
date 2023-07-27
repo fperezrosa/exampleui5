@@ -18,7 +18,6 @@ sap.ui.define([
                     MessageToast.show("everything is OK");
                 } else {
                     MessageToast.show("bad");
-                    MessageToast.show("bad");
                 }
             }
         });
