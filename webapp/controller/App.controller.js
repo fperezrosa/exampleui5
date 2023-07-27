@@ -10,7 +10,7 @@ sap.ui.define([
 
         return Controller.extend("exampleui5.controller.App", {
             onInit: function () {
-                console.log("cambios");
+                MessageToast.show("everything is OK");
             },
             sendMessage: function (param) {
                 if (param) {
