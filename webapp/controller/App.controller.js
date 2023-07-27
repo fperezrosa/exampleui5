@@ -11,7 +11,7 @@ sap.ui.define([
 
         return Controller.extend("exampleui5.controller.App", {
             onInit: function () {
-                MessageToast.show("everything is OK");
+                MessageBox.information("everything is OK");
             },
             sendMessage: function (param) {
                 if (param) {
