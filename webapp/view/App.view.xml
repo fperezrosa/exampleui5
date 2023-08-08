@@ -1,7 +1,7 @@
 <mvc:View controllerName="exampleui5.controller.App"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" >
-    <Page id="page" title="{i18n>title}">
+    xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}" >
         <content >
         
         </content>
